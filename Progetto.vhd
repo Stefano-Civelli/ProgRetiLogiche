@@ -48,10 +48,10 @@ component datapathRL is       --component è un copia incolla dell'entity di DATA
            rco_load : in STD_LOGIC;
            rma_load : in STD_LOGIC;
            rm_load : in STD_LOGIC;
-           rt_load : in STD_LOGIC;  --registri
+           rt_load : in STD_LOGIC;  
            rTS_load : in STD_LOGIC;
            r_sel2 : in STD_LOGIC; 
-           iniz_sel : in STD_LOGIC; --multiplexer
+           iniz_sel : in STD_LOGIC; 
            mult_sel : in STD_LOGIC;
            addr_sel : in STD_LOGIC;
            compmin_sel : in STD_LOGIC;
@@ -360,15 +360,13 @@ entity datapathRL is --datapath è un componente. la entity sono i fili del datap
            rco_load : in STD_LOGIC;
            rma_load : in STD_LOGIC;
            rm_load : in STD_LOGIC;
-           rt_load : in STD_LOGIC;  --registri
+           rt_load : in STD_LOGIC;  
            rTS_load : in STD_LOGIC;
            r_sel2 : in STD_LOGIC;
-           iniz_sel : in STD_LOGIC; --multiplexer
+           iniz_sel : in STD_LOGIC; 
            mult_sel : in STD_LOGIC;
            addr_sel : in STD_LOGIC;
            compmin_sel : in STD_LOGIC;
-           --comp1_sel : in STD_LOGIC;
-           --comp2_sel : in STD_LOGIC;
            r_sel : in STD_LOGIC;
            o_end : out STD_LOGIC; 
            finish : out STD_LOGIC;
