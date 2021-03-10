@@ -127,7 +127,7 @@ begin
     end process;
     
     
-    process(cur_state, i_start, o_end) -- FUNZIONE STATO PROSSIMO
+    process(cur_state, i_start, o_end, CZ, finish) -- FUNZIONE STATO PROSSIMO
     begin
         next_state <= cur_state;
         case cur_state is
@@ -665,7 +665,7 @@ process(sum4)
     end process;
 
 
-process(sub1) 
+process(sub1, sub2) 
     begin
     shift <= "0000000000000000";
         if( sub2 = "00000000") then
