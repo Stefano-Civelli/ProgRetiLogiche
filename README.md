@@ -34,4 +34,4 @@ I pixel della immagine equalizzata , ciascuno di un 8 bit, sono memorizzati in m
 indirizzamento al Byte partendo dalla posizione 2+(N-COL*N-RIG) .
 
 
-La documentazione completa puó essere trovata nel file 'RelazioneProgRetiLogiche_DEF.pdf'
+La documentazione completa puó essere trovata nel file `RelazioneProgRetiLogiche_DEF.pdf`
